@@ -24,7 +24,7 @@ function loadBooks() {
     <p>${item.author}</p>
     <p>Pages: ${item.pages}</p>
     <p>Read? ${item.read}<button class="toggleRead" onclick="readStatusChange(${index})">Change state</button></p>
-    <p><button class="delete" onclick="deleteBook(${index})">Delete</p>
+    <p><button class="delete" onclick="deleteBook(${index})">Delete</button></p>
     </div>
     `;
   });
